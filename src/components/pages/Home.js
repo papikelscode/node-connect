@@ -60,7 +60,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/authereum.png" alt=""></img>
+            <img src={authereum} alt=""></img>
       
               <h2 class="mt-4 text-xl font-bold text-white">Authereum</h2>
       
@@ -103,7 +103,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-             <img src="../static/images/aion.png" alt="" srcset=""></img>
+             <img src={aion} alt="" srcset=""></img>
       
               <h2 class="mt-4 text-xl font-bold text-white">Aion</h2>
       
@@ -113,8 +113,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/bitkeep.png" alt="" srcset=""></img>
-
+            <img src={bitkeep} alt="" srcset=""></img>
       
               <h2 class="mt-4 text-xl font-bold text-white">BitKeep</h2>
       
@@ -125,7 +124,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../assets/images/digitex.png" alt="" srcset=""></img>
+            <img src={digitex} alt="" srcset=""></img>
 
       
               <h2 class="mt-4 text-xl font-bold text-white">Digitex</h2>
@@ -137,7 +136,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/coinomi.png" alt="" srcset=""></img>
+            <img src={coinomi} alt="" srcset=""></img>
 
               <h2 class="mt-4 text-xl font-bold text-white">Coinomi</h2>
       
@@ -148,7 +147,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/enji.png" alt="" srcset=""></img>
+            <img src={enji} alt="" srcset=""></img>
 
       
               <h2 class="mt-4 text-xl font-bold text-white">Enji</h2>
