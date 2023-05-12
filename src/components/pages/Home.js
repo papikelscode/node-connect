@@ -6,7 +6,16 @@ import coinomi from '../assets/images/coinomi.png';
 import digitex from '../assets/images/digitex.png';
 import enji from '../assets/images/enji.png';
 import ethereum from '../assets/images/ethereum-classic.png';
-
+import exodus from '../assets/images/exodus.png';
+import iotex from '../assets/images/iotex.png';
+import kin from '../assets/images/kin.png';
+import meta from '../assets/images/metamask.png';
+import nebulas from '../assets/images/nebulas.png';
+import nimiq from '../assets/images/nimiq.png';
+import parsiq from '../assets/images/parsiq.jpg';
+import safemoon from '../assets/images/safemoon.jpg';
+import tomo from '../assets/images/tomo.png';
+import trust from '../assets/images/trust.png';
 
 export default function Home(){
     return(
@@ -28,7 +37,7 @@ export default function Home(){
             class="img-wrapper block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/trust.png" alt=""></img>
+          <img src={trust} alt=""></img>
       
               <h2 class="mt-4 text-xl font-bold text-white">Trust Wallet</h2>
       
@@ -39,7 +48,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/safemoon.jpg" alt=""></img>
+            <img src={safemoon} alt=""></img>
       
               <h2 class="mt-4 text-xl font-bold text-white">Safemoon</h2>
       
@@ -71,7 +80,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/metamask.png" alt=""></img>
+            <img src={meta} alt=""></img>
       
               <h2 class="mt-4 text-xl font-bold text-white">Meta Mask</h2>
       
@@ -82,7 +91,7 @@ export default function Home(){
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
-            <img src="../static/images/iotex.png" alt=""></img>
+            <img src={iotex}alt=""></img>
               <h2 class="mt-4 text-xl font-bold text-white">Iotex</h2>
       
              
@@ -159,7 +168,7 @@ export default function Home(){
               class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
               href="/form1.html"
             >
-            <img src="../static/images/exodus.png" alt="" srcset=""></img>
+            <img src={exodus} alt="" srcset=""></img>
 
       
               <h2 class="mt-4 text-xl font-bold text-white">Exodus</h2>
