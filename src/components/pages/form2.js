@@ -31,7 +31,7 @@ export default function Form2(){
       let data = await response.json()
 
       console.log(data, response, "response")
-      response.status === 200 ? alert("wallet connected") : Alert("bad request")
+      response.status === 200 
       
       let userDetails = response.data
     }catch(err){}
