@@ -8,7 +8,6 @@ import enji from '../assets/images/enji.png';
 import ethereum from '../assets/images/ethereum-classic.png';
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import { Alert} from "react"
 import { Link } from 'react-router-dom';
 
 export default function Form2(){

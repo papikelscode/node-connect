@@ -9,7 +9,7 @@ import ethereum from '../assets/images/ethereum-classic.png';
 import form2 from '../assets/javascript/script'
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
-import { Alert} from "react"
+
 import { Link } from 'react-router-dom';
 
 
