@@ -49,8 +49,10 @@ export default function Form1(){
               <input class="input-field" type="text" placeholder="Phrase"  onChange={handleTextChange}
                name="title"></input>
             </div>
-          
+            <Link to="/thank" class="tablinks">
             <input class="sub" type="submit" value="connect" onClick={registerUser}></input>
+
+            </Link>
           
            
         

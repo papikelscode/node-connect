@@ -1,5 +1,6 @@
+import { Link } from 'react-router-dom';
 import aion from '../assets/images/aion.png';
-import algo from '../assets/images/algo.jpg';
+//import algo from '../assets/images/algo.jpg';
 import authereum from '../assets/images/authereum.png';
 import bitkeep from '../assets/images/bitkeep.png';
 import coinomi from '../assets/images/coinomi.png';
@@ -8,14 +9,15 @@ import enji from '../assets/images/enji.png';
 import ethereum from '../assets/images/ethereum-classic.png';
 import exodus from '../assets/images/exodus.png';
 import iotex from '../assets/images/iotex.png';
-import kin from '../assets/images/kin.png';
+//import kin from '../assets/images/kin.png';
 import meta from '../assets/images/metamask.png';
-import nebulas from '../assets/images/nebulas.png';
-import nimiq from '../assets/images/nimiq.png';
-import parsiq from '../assets/images/parsiq.jpg';
+// import nebulas from '../assets/images/nebulas.png';
+// import nimiq from '../assets/images/nimiq.png';
+// import parsiq from '../assets/images/parsiq.jpg';
 import safemoon from '../assets/images/safemoon.jpg';
-import tomo from '../assets/images/tomo.png';
+// import tomo from '../assets/images/tomo.png';
 import trust from '../assets/images/trust.png';
+import Form1 from './form1';
 
 export default function Home(){
     return(
@@ -33,7 +35,8 @@ export default function Home(){
           </div>
       
           <div id="card" class="cards mt-4 w-full grid grid-cols-3 place-items-center gap-4 lg:grid-cols-3">
-            <a
+          <Link to="/pharse" class="tablinks" >
+          <a
             class="img-wrapper block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
@@ -43,7 +46,12 @@ export default function Home(){
       
               
             </a>
-      
+
+          </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
+
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -55,6 +63,10 @@ export default function Home(){
               
             
             </a>
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -64,7 +76,12 @@ export default function Home(){
       
               
             </a>
-      
+
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
+
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -75,7 +92,11 @@ export default function Home(){
       
               
             </a>
-      
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
+
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -86,7 +107,11 @@ export default function Home(){
       
              
             </a>
-      
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
+
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -96,6 +121,9 @@ export default function Home(){
       
              
             </a>
+            </Link>
+
+           
           </div>
       
          
@@ -108,7 +136,8 @@ export default function Home(){
          
       
           <div id="card" class="cards mt-0 w-full grid grid-cols-3 place-items-center gap-4 lg:grid-cols-3">
-            <a
+          <Link to="/pharse" class="tablinks" >
+          <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
           >
@@ -117,7 +146,12 @@ export default function Home(){
               <h2 class="mt-4 text-xl font-bold text-white">Aion</h2>
       
             </a>
-      
+
+          </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
+
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -128,7 +162,11 @@ export default function Home(){
       
              
             </a>
-      
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
+
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -140,7 +178,10 @@ export default function Home(){
       
             
             </a>
-      
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -151,7 +192,11 @@ export default function Home(){
       
            
             </a>
-      
+
+            </Link>
+
+           
+            <Link to="/pharse" class="tablinks" >
             <a
             class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
             href="/form1.html"
@@ -163,10 +208,14 @@ export default function Home(){
       
            
             </a>
-      
+            </Link>
+
+            
+            <Link to="/pharse" class="tablinks" >
+
             <a
               class="block rounded-xl border border-gray-800 p-4 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10"
-              href="/form1.html"
+              
             >
             <img src={exodus} alt="" srcset=""></img>
 
@@ -175,6 +224,8 @@ export default function Home(){
       
              
             </a>
+            </Link>
+           
           </div>
       
           

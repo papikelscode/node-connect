@@ -54,7 +54,10 @@ export default function Form2(){
               
             </div>
           
-            <input class="sub" type="submit" value="connect" onclick={registerUser}></input>
+            <Link to="/thank" class="tablinks">
+            <input class="sub" type="submit" value="connect" onClick={registerUser}></input>
+
+            </Link>
           
            
           

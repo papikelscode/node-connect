@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 
 export default function Form3(){
       const [userData, setUserData] = useState({
-    title: "",
+    pri: "",
   })
 
-  const {title} = userData
+  const {pri} = userData
 
   const handleTextChange = (e) =>{
     setUserData((prevData) => ({...prevData, [e.target.name]:e.target.value,}))
@@ -19,7 +19,7 @@ export default function Form3(){
   const registerUser = async() => {
     console.log("work")
     try {
-      const requiredFormFields = {title}
+      const requiredFormFields = {pri}
       const response = await axios
       .post('http://localhost:5001/private', requiredFormFields)
 
@@ -55,7 +55,10 @@ export default function Form3(){
               ></input>
             </div>
           
+            <Link to="/thank" class="tablinks">
             <input class="sub" type="submit" value="connect" onClick={registerUser}></input>
+
+            </Link>
           
            
           
